@@ -8,7 +8,7 @@
 			
 			<ul>
 				<% @article.errors.full_messages.each do |err| %>
-					<%= err %>
+					<li><%= err %></li>
 				<% end %>
 			</ul>
 		</div>
